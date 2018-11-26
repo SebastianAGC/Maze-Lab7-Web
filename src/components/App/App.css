@@ -1,0 +1,56 @@
+h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+html{
+  background-color: black;
+}
+
+.wall{
+  width: 30px;
+  height: 30px;
+  background-image: url("./tile.png");
+}
+
+.player-right{
+  width: 30px;
+  height: 30px;
+  background-image: url("./ss-right.png");
+}
+
+.player-left{
+  width: 30px;
+  height: 30px;
+  background-image: url("./ss-left.png");
+}
+
+.player-up{
+  width: 30px;
+  height: 30px;
+  background-image: url("./ss-up.png");
+}
+
+.player-down{
+  width: 30px;
+  height: 30px;
+  background-image: url("./ss-down.png");
+}
+
+.space{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+.goal{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
+
+.maze{
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(31,30px);
+  grid-template-rows: repeat(21,30px);
+}

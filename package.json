@@ -1,0 +1,45 @@
+{
+  "name": "Laberinto",
+  "version": "1.0.0",
+  "description": "Laberinto en react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianAGC/Memory-Lab6-Web.git"
+  },
+  "author": "King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianAGC/Memory-Lab6-Web/issues"
+  },
+  "homepage": "https://github.com/SebastianAGC/Memory-Lab6-Web#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "npx": "^10.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "webpack-parts": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
